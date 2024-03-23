@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etNama"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="20dp"
+        android:hint="@string/Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_marginStart="20dp"
+        android:text="@string/tipe_pelanggan"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/rgMember"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rbMgold"
+            android:layout_marginStart="20dp"
+            android:text="@string/gold"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/rbMsilver"
+            android:layout_marginStart="20dp"
+            android:text="@string/silver"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/rbMbiasa"
+            android:layout_marginStart="20dp"
+            android:text="@string/biasa"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etKbarang"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:hint="@string/kode_barang"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etJbarang"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:hint="@string/jumlah_barang"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnProses"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:text="@string/proses"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

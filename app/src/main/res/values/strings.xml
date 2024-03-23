@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TugasDay5</string>
+    <string name="Nama">Nama</string>
+    <string name="tipe_pelanggan">Tipe Pelanggan</string>
+    <string name="gold">Gold</string>
+    <string name="silver">silver</string>
+    <string name="biasa">Biasa</string>
+    <string name="kode_barang">Kode Barang</string>
+    <string name="jumlah_barang">Jumlah Barang</string>
+    <string name="proses">Proses</string>
+    <string name="transaksi_hari_ini">Transaksi Hari ini</string>
+    <string name="terima_kasih_telah_belanja_disini">Terima Kasih Telah Belanja Disini</string>
+    <string name="share">Share</string>
+</resources>

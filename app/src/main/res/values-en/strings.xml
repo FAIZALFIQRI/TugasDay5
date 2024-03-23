@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Day 5 assignments</string>
+    <string name="Nama">Name</string>
+    <string name="tipe_pelanggan">Customer Type</string>
+    <string name="gold">Gold</string>
+    <string name="silver">silver</string>
+    <string name="biasa">Normal</string>
+    <string name="kode_barang">Item code</string>
+    <string name="jumlah_barang">The amount of goods</string>
+    <string name="proses">Process</string>
+    <string name="transaksi_hari_ini">Today\'s Transactions</string>
+    <string name="terima_kasih_telah_belanja_disini">Thank you for shopping here</string>
+    <string name="share">Share</string>
+</resources>

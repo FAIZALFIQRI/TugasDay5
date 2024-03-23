@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/tvSdatang"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvTmember"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/transaksi_hari_ini"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvNbar"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvHarga"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvTharga"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvDharga"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvDmember"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvJbayar"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/terima_kasih_telah_belanja_disini"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:text="@string/share"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
